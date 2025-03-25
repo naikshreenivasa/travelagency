@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TravelGuide</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore breathtaking destinations tailored to your preferences</p>
+            <a href="#recommendations" class="cta-button">Start Exploring</a>
+        </div>
+    </header>
+
+    <section id="recommendations" class="recommendations">
+        <h2>Popular Destinations</h2>
+        
+        <div class="destination-category">
+            <h3>Beach Paradise</h3>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="images/beach1.jpg" alt="Maldives">
+                    <div class="card-content">
+                        <h4>Maldives</h4>
+                        <p>Crystal clear waters and luxury overwater villas</p>
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/beach2.jpg" alt="Bora Bora">
+                    <div class="card-content">
+                        <h4>Bora Bora</h4>
+                        <p>Paradise on Earth with pristine beaches</p>
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="destination-category">
+            <h3>Cultural Heritage</h3>
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="images/temple1.jpg" alt="Angkor Wat">
+                    <div class="card-content">
+                        <h4>Angkor Wat</h4>
+                        <p>Ancient temples with rich history</p>
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="images/temple2.jpg" alt="Machu Picchu">
+                    <div class="card-content">
+                        <h4>Machu Picchu</h4>
+                        <p>Incan citadel in the Andes Mountains</p>
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="country-selector">
+            <h3>Explore by Country</h3>
+            <select id="country-select" class="modern-select">
+                <option value="">Select a country</option>
+                <option value="Japan">Japan</option>
+                <option value="France">France</option>
+            </select>
+            <div id="country-recommendation" class="country-result"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>We help travelers find their perfect destinations.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Travel Recommendation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
